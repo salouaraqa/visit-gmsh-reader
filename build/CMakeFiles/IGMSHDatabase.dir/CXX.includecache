@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//GMSHPluginInfo.h
+DatabasePluginInfo.h
+-
+database_plugin_exports.h
+-
+
+/net/i/souaraqa/visu_insitu/visit-gmsh-reader/GMSHPluginInfo.C
+GMSHPluginInfo.h
+-
+visit-config.h
+-
+
+/opt/visit/3.0.2/3.0.2/linux-x86_64/include/visit/common/plugin/DatabasePluginInfo.h
+plugin_exports.h
+-
+plugin_entry_point.h
+-
+stdio.h
+-
+string
+-
+vector
+-
+
+/opt/visit/3.0.2/3.0.2/linux-x86_64/include/visit/common/plugin/database_plugin_exports.h
+
+/opt/visit/3.0.2/3.0.2/linux-x86_64/include/visit/common/plugin/plugin_entry_point.h
+
+/opt/visit/3.0.2/3.0.2/linux-x86_64/include/visit/common/plugin/plugin_exports.h
+
+/opt/visit/3.0.2/3.0.2/linux-x86_64/include/visit/include/visit-config.h
+
