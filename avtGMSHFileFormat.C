@@ -358,7 +358,7 @@ avtGMSHFileFormat::GetMesh(const char *meshname)
 vtkDataArray *
 avtGMSHFileFormat::GetVar(const char *varname)
 {
-  return nullptr;
+
 
   //
   // If you have a file format where variables don't apply (for example a
